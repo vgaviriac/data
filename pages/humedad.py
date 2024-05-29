@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 
-st.title ('Analisis de humedad')
+st.title ('Analisis de Humedad')
 image = Image.open('humedad.png')
 st.image(image)
 
