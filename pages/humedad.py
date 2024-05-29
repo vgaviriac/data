@@ -3,7 +3,7 @@ import pandas as pd
 from PIL import Image
 
 st.title ('Analisis de humedad')
-image = Image.open('grafana2.jpg')
+image = Image.open('humedad.png')
 st.image(image)
 
 uploaded_file = st.file_uploader('Choose a file')
